@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+  
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2{
+    font-weight: bold;
+}
+/* NAVBAR */
+.nav-img{
+    width: 20%;
+    border-radius: 50%;
+}
+
+
+/* ILK UCHRASHUV */
+.ilk_uchrashuv{
+    margin-top: 2.7rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.ilk_uchrashuv--img{
+    width: 100%;
+    border-radius: 1rem;
+    align-items: center;
+}
+
+/* RASMLAR */
+.rasmlar > .img{
+    width: 85%;
+    height: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+.img:hover > img{
+    transform: scale(1.3);
+    transition: all .5s;
+}
